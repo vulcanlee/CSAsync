@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.作業系統知識回顧"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001 只有一個主要執行緒", "只有一個主要執行緒\001 只有一個主要執行緒.csproj", "{46B5AD38-9A14-4669-B96C-A44E45397E8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008 執行緒的同步處理內容WPF", "執行緒的同步處理內容WPF\008 執行緒的同步處理內容WPF.csproj", "{80E5BDE9-638B-4608-8776-C0DA577B2477}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{46B5AD38-9A14-4669-B96C-A44E45397E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46B5AD38-9A14-4669-B96C-A44E45397E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46B5AD38-9A14-4669-B96C-A44E45397E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E5BDE9-638B-4608-8776-C0DA577B2477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E5BDE9-638B-4608-8776-C0DA577B2477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E5BDE9-638B-4608-8776-C0DA577B2477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E5BDE9-638B-4608-8776-C0DA577B2477}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{46B5AD38-9A14-4669-B96C-A44E45397E8C} = {95388988-339F-4A73-9F4A-6928A0E3F082}
+		{80E5BDE9-638B-4608-8776-C0DA577B2477} = {95388988-339F-4A73-9F4A-6928A0E3F082}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
