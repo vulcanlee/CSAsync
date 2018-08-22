@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.作業系統知識回顧"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001 只有一個主要執行緒", "只有一個主要執行緒\001 只有一個主要執行緒.csproj", "{46B5AD38-9A14-4669-B96C-A44E45397E8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008 執行緒的同步處理內容WPF", "執行緒的同步處理內容WPF\008 執行緒的同步處理內容WPF.csproj", "{80E5BDE9-638B-4608-8776-C0DA577B2477}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009 執行緒的同步處理內容WPF", "執行緒的同步處理內容WPF\009 執行緒的同步處理內容WPF.csproj", "{80E5BDE9-638B-4608-8776-C0DA577B2477}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
