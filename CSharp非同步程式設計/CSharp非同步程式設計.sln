@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001 只有一個主要執�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009 執行緒的同步處理內容WPF", "執行緒的同步處理內容WPF\009 執行緒的同步處理內容WPF.csproj", "{80E5BDE9-638B-4608-8776-C0DA577B2477}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011 客製化同步內容運作機制", "客製化同步內容運作機制\011 客製化同步內容運作機制.csproj", "{3A744E7C-200B-4945-A1E9-AE7B6073469E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010 執行緒的同步處理內容ASPNET", "執行緒的同步處理內容ASPNET\010 執行緒的同步處理內容ASPNET.csproj", "{9BC19556-5AD6-4543-A20D-B417295A033D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{80E5BDE9-638B-4608-8776-C0DA577B2477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E5BDE9-638B-4608-8776-C0DA577B2477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E5BDE9-638B-4608-8776-C0DA577B2477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A744E7C-200B-4945-A1E9-AE7B6073469E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A744E7C-200B-4945-A1E9-AE7B6073469E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A744E7C-200B-4945-A1E9-AE7B6073469E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A744E7C-200B-4945-A1E9-AE7B6073469E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC19556-5AD6-4543-A20D-B417295A033D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC19556-5AD6-4543-A20D-B417295A033D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC19556-5AD6-4543-A20D-B417295A033D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC19556-5AD6-4543-A20D-B417295A033D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{46B5AD38-9A14-4669-B96C-A44E45397E8C} = {95388988-339F-4A73-9F4A-6928A0E3F082}
 		{80E5BDE9-638B-4608-8776-C0DA577B2477} = {95388988-339F-4A73-9F4A-6928A0E3F082}
+		{3A744E7C-200B-4945-A1E9-AE7B6073469E} = {95388988-339F-4A73-9F4A-6928A0E3F082}
+		{9BC19556-5AD6-4543-A20D-B417295A033D} = {95388988-339F-4A73-9F4A-6928A0E3F082}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
