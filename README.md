@@ -8,7 +8,7 @@
 |009 執行緒的同步處理內容WPF|在 WPF 使用 執行緒的同步內 SynchronizationContext 進行非同步工作處理問題|在您的 WPF 專案中有使用到 多執行緒 Multiple Thread 或者 非同步 Asynchronous 處理需求，若沒有特別注意，將會發生不可預期的例外異常問題。|
 |010 執行緒的同步處理內容ASPNET|在 ASP.NET 使用 執行緒的同步內 SynchronizationContext 進行非同步工作處理問題|在您的 ASP.NET 專案中有使用到 多執行緒 Multiple Thread 或者 非同步 Asynchronous 處理需求，若沒有特別注意，將會發生不可預期的例外異常問題。|
 |011 客製化同步內容運作機制|了解同步內容的內部設計方法|我們將會建立一個 Console 類型的專案，並且自訂一個 SynchronizationContext 類別，提供類似 WPF 的同步內容運作機制。|
-||||
+|012 HttpContext的各種非同步工作使用情境|HttpContext的各種非同步工作使用情境與測試|請試著修改各項參數，查看執行結果有何差異與為什麼會有這樣的問題|
 ||||
 ||||
 ||||

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011 客製化同步內容�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010 執行緒的同步處理內容ASPNET", "執行緒的同步處理內容ASPNET\010 執行緒的同步處理內容ASPNET.csproj", "{9BC19556-5AD6-4543-A20D-B417295A033D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012 HttpContext的各種非同步工作使用情境", "HttpContext的各種非同步工作使用情境\012 HttpContext的各種非同步工作使用情境.csproj", "{768C268D-A677-4241-A272-D9B3A31F5DAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{9BC19556-5AD6-4543-A20D-B417295A033D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC19556-5AD6-4543-A20D-B417295A033D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC19556-5AD6-4543-A20D-B417295A033D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768C268D-A677-4241-A272-D9B3A31F5DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768C268D-A677-4241-A272-D9B3A31F5DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768C268D-A677-4241-A272-D9B3A31F5DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768C268D-A677-4241-A272-D9B3A31F5DAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{80E5BDE9-638B-4608-8776-C0DA577B2477} = {95388988-339F-4A73-9F4A-6928A0E3F082}
 		{3A744E7C-200B-4945-A1E9-AE7B6073469E} = {95388988-339F-4A73-9F4A-6928A0E3F082}
 		{9BC19556-5AD6-4543-A20D-B417295A033D} = {95388988-339F-4A73-9F4A-6928A0E3F082}
+		{768C268D-A677-4241-A272-D9B3A31F5DAF} = {95388988-339F-4A73-9F4A-6928A0E3F082}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
