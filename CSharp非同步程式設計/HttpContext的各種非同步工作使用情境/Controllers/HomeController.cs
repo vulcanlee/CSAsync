@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace HttpContext的各種非同步工作使用情境.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller 
     {
         // 要休息時間毫秒數
         int SLEEPINTERVALMS = 1000;

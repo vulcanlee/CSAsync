@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003 執行緒競爭", "執�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004 執行緒競爭解決方法", "執行緒競爭解決方法\004 執行緒競爭解決方法.csproj", "{BDBFC904-B11B-44BC-AF8D-E572FB6AF9D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005 執行緒產生死結", "執行緒產生死結\005 執行緒產生死結.csproj", "{D63DE859-B79F-46B1-96E8-B35567B20B10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{BDBFC904-B11B-44BC-AF8D-E572FB6AF9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDBFC904-B11B-44BC-AF8D-E572FB6AF9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDBFC904-B11B-44BC-AF8D-E572FB6AF9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63DE859-B79F-46B1-96E8-B35567B20B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63DE859-B79F-46B1-96E8-B35567B20B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63DE859-B79F-46B1-96E8-B35567B20B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63DE859-B79F-46B1-96E8-B35567B20B10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{D8B2EA76-2EF9-4449-ACC8-9322BD3597D2} = {95388988-339F-4A73-9F4A-6928A0E3F082}
 		{E6E86883-218C-446A-9537-3F8C99DC08B3} = {95388988-339F-4A73-9F4A-6928A0E3F082}
 		{BDBFC904-B11B-44BC-AF8D-E572FB6AF9D6} = {95388988-339F-4A73-9F4A-6928A0E3F082}
+		{D63DE859-B79F-46B1-96E8-B35567B20B10} = {95388988-339F-4A73-9F4A-6928A0E3F082}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
