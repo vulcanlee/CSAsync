@@ -29,7 +29,7 @@ namespace 執行緒競爭
             thread1.Start();
             thread2.Start();
 
-            // 等候這兩個執行緒結束執行
+            // 等候這兩個執行緒結束執行，這個時候，主執行緒是在 封鎖 狀態下，也就是無法繼續執行任何程式碼
             thread1.Join();
             thread2.Join();
 
