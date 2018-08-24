@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002 建立Thread使用Lambd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008 使用BackgroundWorker", "使用BackgroundWorker\008 使用BackgroundWorker.csproj", "{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "022 封鎖並執行緒終止", "封鎖並執行緒終止\022 封鎖並執行緒終止.csproj", "{70FF4EB9-FEE4-4C79-A471-7B395E92653D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,10 @@ Global
 		{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FF4EB9-FEE4-4C79-A471-7B395E92653D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FF4EB9-FEE4-4C79-A471-7B395E92653D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FF4EB9-FEE4-4C79-A471-7B395E92653D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FF4EB9-FEE4-4C79-A471-7B395E92653D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{F8FC4838-6441-4C4B-B3CD-A8C78E51109E} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{29B5E1A4-9667-4EA5-BCA6-D8E87CAA2558} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{70FF4EB9-FEE4-4C79-A471-7B395E92653D} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
