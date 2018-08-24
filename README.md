@@ -22,7 +22,7 @@
 |專案名稱|專案說明|備註|
 |-|-|-|
 |001 建立Thread使用ThreadStart|一個非常典型的使用 Thread 來做到非同步作業的範例|如何使用 ThreadStart 與 ParameterizedThreadStart 來指定一個委派的方法，並且啟動一個執行緒|
-|002 建立Thread使用Lambda|||
+|002 建立Thread使用Lambda|一個非常典型的使用 Thread 來做到非同步作業的範例|使用 Lambda 表示式 來指定一個委派的方法，並且啟動一個執行緒|
 |003 背景執行緒|||
 |004 前景執行緒|||
 |005 強制終止Abort|||
