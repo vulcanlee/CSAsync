@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001 建立Thread使用Threa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002 建立Thread使用Lambda", "建立Thread使用Lambda\002 建立Thread使用Lambda.csproj", "{29B5E1A4-9667-4EA5-BCA6-D8E87CAA2558}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008 使用BackgroundWorker", "使用BackgroundWorker\008 使用BackgroundWorker.csproj", "{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{29B5E1A4-9667-4EA5-BCA6-D8E87CAA2558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29B5E1A4-9667-4EA5-BCA6-D8E87CAA2558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29B5E1A4-9667-4EA5-BCA6-D8E87CAA2558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{D63DE859-B79F-46B1-96E8-B35567B20B10} = {95388988-339F-4A73-9F4A-6928A0E3F082}
 		{F8FC4838-6441-4C4B-B3CD-A8C78E51109E} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{29B5E1A4-9667-4EA5-BCA6-D8E87CAA2558} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}

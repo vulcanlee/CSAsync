@@ -28,7 +28,7 @@
 |005 強制終止Abort|||
 |006 終止使用變數|||
 |007 終止CancellationToken|||
-|008 使用BackgroundWorker|||
+|008 使用BackgroundWorker|BackgroundWork 這個類別來建立背景執行緒|BackgroundWork類別簡化了要進行多工非同步的程式設計複雜度，並且提供了多樣性的事件，可讓我們方便處理各項事務，這樣，讓我們可以不用再面對 Thread，也可以做到多工處理|
 |009 WPF使用BackgroundWorker|||
 |010 大量執行緒產生與執行|||
 |011 不同優先權的執行緒|||
