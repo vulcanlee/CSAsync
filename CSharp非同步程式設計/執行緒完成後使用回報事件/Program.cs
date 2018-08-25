@@ -49,6 +49,7 @@ namespace 執行緒完成後使用回報事件
                 worker.On執行緒完成 += 執行緒完成事件方法;
 
                 Console.WriteLine("產生第二個新的執行緒，並且開始執行該執行緒");
+                // 產生第二個新的執行緒，並且開始執行該執行緒
                 Thread thread2 = new Thread(worker.Run);
                 thread2.Start();
 
