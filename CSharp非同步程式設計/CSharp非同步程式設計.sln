@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "022 封鎖並執行緒終�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "023 使用WaitHandle等候執行緒結束", "使用WaitHandle等候執行緒結束\023 使用WaitHandle等候執行緒結束.csproj", "{534B0F3C-DF44-491A-BDC2-74CE66C17B8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "024 執行緒完成後使用回報事件", "執行緒完成後使用回報事件\024 執行緒完成後使用回報事件.csproj", "{B6F452E8-5690-4CD0-AC4D-3A7A69298E3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{534B0F3C-DF44-491A-BDC2-74CE66C17B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{534B0F3C-DF44-491A-BDC2-74CE66C17B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{534B0F3C-DF44-491A-BDC2-74CE66C17B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F452E8-5690-4CD0-AC4D-3A7A69298E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F452E8-5690-4CD0-AC4D-3A7A69298E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F452E8-5690-4CD0-AC4D-3A7A69298E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F452E8-5690-4CD0-AC4D-3A7A69298E3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +136,7 @@ Global
 		{47CD65BF-1960-4CB9-AFA8-6CEE836BF7AB} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{70FF4EB9-FEE4-4C79-A471-7B395E92653D} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{534B0F3C-DF44-491A-BDC2-74CE66C17B8E} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{B6F452E8-5690-4CD0-AC4D-3A7A69298E3F} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
