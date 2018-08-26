@@ -31,8 +31,8 @@ namespace 背景執行緒
             // 由於 t1 執行緒為背景執行緒
             // 在底下主執行緒程式碼執行完畢後，不管背景執行緒是否已經執行完畢，
             // 會將所有背景執行緒移除掉
-            Console.WriteLine("主執行緒要結束執行了");
             Console.ReadKey();
+            Console.WriteLine("主執行緒要結束執行了");
         }
     }
 }

@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "025 執行緒完成後使�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003 背景執行緒", "背景執行緒\003 背景執行緒.csproj", "{05207992-186A-4044-B987-A3D5BD259F26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004 前景執行緒", "前景執行緒\004 前景執行緒.csproj", "{A13BAFB5-1CF7-4515-A009-51131569888B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{05207992-186A-4044-B987-A3D5BD259F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05207992-186A-4044-B987-A3D5BD259F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05207992-186A-4044-B987-A3D5BD259F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13BAFB5-1CF7-4515-A009-51131569888B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13BAFB5-1CF7-4515-A009-51131569888B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13BAFB5-1CF7-4515-A009-51131569888B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13BAFB5-1CF7-4515-A009-51131569888B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -151,6 +157,7 @@ Global
 		{B6F452E8-5690-4CD0-AC4D-3A7A69298E3F} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{916A3F60-AC82-4A83-8895-B12C7A4BCD87} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{05207992-186A-4044-B987-A3D5BD259F26} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{A13BAFB5-1CF7-4515-A009-51131569888B} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
