@@ -27,7 +27,7 @@
 |004 前景執行緒|建立 Thread 類別物件與啟動 Thread，預設為前景執行緒|在 Main 方法中，會啟動一個前景執行緒，之後 主執行緒 就會結束了，因此，此為前景執行緒，因此也需要等候該執行緒結束執行，該處理程序才會結束|
 |005 強制終止Abort|體驗要停止一個執行緒的執行|因為 Abort 方法是在另外一個執行緒上執行(我們是從主執行緒呼叫該方法)，並於所在執行緒中引發 ThreadAbortException，開始處理執行緒的結束作業|
 |006 終止使用變數|使用變數與輪詢方式，確認執行緒是否要結束執行|要停止一個執行緒的執行，可以使用一個變數旗標來控制，該執行緒是否需要繼續執行| 
-|007 終止CancellationToken|||
+|007 終止CancellationToken|學習使用CancellationTokenSource來進行取消 Thread的執行|可以使用 取消許可證來源 CancellationTokenSource 物件，向 CancellationToken 發出訊號，表示應該將它取消，並且在執行緒內應該要結束該執行緒的執行|
 |008 使用BackgroundWorker|BackgroundWork 這個類別來建立背景執行緒|BackgroundWork類別簡化了要進行多工非同步的程式設計複雜度，並且提供了多樣性的事件，可讓我們方便處理各項事務，這樣，讓我們可以不用再面對 Thread，也可以做到多工處理|
 |009 WPF使用BackgroundWorker|||
 |010 大量執行緒產生與執行|||

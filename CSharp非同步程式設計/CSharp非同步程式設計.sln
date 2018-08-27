@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005 強制終止Abort", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006 終止使用變數", "終止使用變數\006 終止使用變數.csproj", "{23EFF635-C2D2-41B8-92ED-9EDF3069B40A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007 終止CancellationToken", "終止CancellationToken\007 終止CancellationToken.csproj", "{880A9C08-71DF-4C2A-BCCE-FFB3EF882755}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +153,10 @@ Global
 		{23EFF635-C2D2-41B8-92ED-9EDF3069B40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23EFF635-C2D2-41B8-92ED-9EDF3069B40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23EFF635-C2D2-41B8-92ED-9EDF3069B40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880A9C08-71DF-4C2A-BCCE-FFB3EF882755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880A9C08-71DF-4C2A-BCCE-FFB3EF882755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880A9C08-71DF-4C2A-BCCE-FFB3EF882755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880A9C08-71DF-4C2A-BCCE-FFB3EF882755}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +185,7 @@ Global
 		{AE003EE3-2334-43BB-8FA4-14E0B7FF992A} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{EC4E983E-3C78-4F85-A938-D3BEC3D97096} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{23EFF635-C2D2-41B8-92ED-9EDF3069B40A} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{880A9C08-71DF-4C2A-BCCE-FFB3EF882755} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
