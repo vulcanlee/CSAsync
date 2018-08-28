@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007 終止CancellationToken
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020 執行緒發生例外異常", "執行緒發生例外異常\020 執行緒發生例外異常.csproj", "{A1F1BCEB-91A1-438C-981E-E6B722CB633A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010 大量執行緒產生與執行", "大量執行緒產生與執行\010 大量執行緒產生與執行.csproj", "{365202BB-E650-4E96-A99C-598571EE27E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +165,10 @@ Global
 		{A1F1BCEB-91A1-438C-981E-E6B722CB633A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1F1BCEB-91A1-438C-981E-E6B722CB633A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1F1BCEB-91A1-438C-981E-E6B722CB633A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365202BB-E650-4E96-A99C-598571EE27E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365202BB-E650-4E96-A99C-598571EE27E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365202BB-E650-4E96-A99C-598571EE27E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365202BB-E650-4E96-A99C-598571EE27E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,6 +199,7 @@ Global
 		{23EFF635-C2D2-41B8-92ED-9EDF3069B40A} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{880A9C08-71DF-4C2A-BCCE-FFB3EF882755} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{A1F1BCEB-91A1-438C-981E-E6B722CB633A} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{365202BB-E650-4E96-A99C-598571EE27E2} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
