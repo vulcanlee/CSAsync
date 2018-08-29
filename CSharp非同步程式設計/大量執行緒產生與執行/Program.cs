@@ -32,11 +32,13 @@ namespace 大量執行緒產生與執行
                 // 產生一個新的 Thread並且立即啟動
                 new Thread(() =>
                 {
+                    var threadId = Thread.CurrentThread.ManagedThreadId;
                     for (int i = 0; i < int.MaxValue; i++)
                     {
-                        Console.WriteLine("執行緒方法1: {0}", i);
+                        Console.WriteLine($"執行緒方法{threadId}: {i}");
                     }
-                }).Start();
+                })
+                { IsBackground = true }.Start();
             }
 
             Console.WriteLine("按下任一按鍵，結束處理程序");
