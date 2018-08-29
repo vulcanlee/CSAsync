@@ -63,7 +63,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012 執行緒區域儲存�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014 執行緒資料位置", "執行緒資料位置\014 執行緒資料位置.csproj", "{A1CCD00B-F9D4-4606-B9C8-21811D201D50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015 執行緒GetDataSetData", "執行緒GetDataSetData\015 執行緒GetDataSetData.csproj", "{D7E48A2E-C43A-4D88-993F-500ED419A9B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "026 執行緒匿名資料插槽", "執行緒匿名資料插槽\026 執行緒匿名資料插槽.csproj", "{0996FFD8-2793-4568-AE60-A051556E4AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015 執行緒具名資料插槽", "執行緒具名資料插槽\015 執行緒具名資料插槽.csproj", "{23C2C0A9-B309-43B6-828E-068B673DCE12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "027 執行緒資料位置ThreadStatic屬性", "執行緒資料位置ThreadStatic屬性\027 執行緒資料位置ThreadStatic屬性.csproj", "{1E5569C0-D9C5-405F-AE50-695BC5724E43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,10 +187,18 @@ Global
 		{A1CCD00B-F9D4-4606-B9C8-21811D201D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1CCD00B-F9D4-4606-B9C8-21811D201D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1CCD00B-F9D4-4606-B9C8-21811D201D50}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7E48A2E-C43A-4D88-993F-500ED419A9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7E48A2E-C43A-4D88-993F-500ED419A9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7E48A2E-C43A-4D88-993F-500ED419A9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7E48A2E-C43A-4D88-993F-500ED419A9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0996FFD8-2793-4568-AE60-A051556E4AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0996FFD8-2793-4568-AE60-A051556E4AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0996FFD8-2793-4568-AE60-A051556E4AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0996FFD8-2793-4568-AE60-A051556E4AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C2C0A9-B309-43B6-828E-068B673DCE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C2C0A9-B309-43B6-828E-068B673DCE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C2C0A9-B309-43B6-828E-068B673DCE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C2C0A9-B309-43B6-828E-068B673DCE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5569C0-D9C5-405F-AE50-695BC5724E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5569C0-D9C5-405F-AE50-695BC5724E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5569C0-D9C5-405F-AE50-695BC5724E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5569C0-D9C5-405F-AE50-695BC5724E43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -220,7 +232,9 @@ Global
 		{365202BB-E650-4E96-A99C-598571EE27E2} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{64F6A7CE-52A7-4821-9B23-D54C9C634971} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{A1CCD00B-F9D4-4606-B9C8-21811D201D50} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
-		{D7E48A2E-C43A-4D88-993F-500ED419A9B7} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{0996FFD8-2793-4568-AE60-A051556E4AD9} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{23C2C0A9-B309-43B6-828E-068B673DCE12} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{1E5569C0-D9C5-405F-AE50-695BC5724E43} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}

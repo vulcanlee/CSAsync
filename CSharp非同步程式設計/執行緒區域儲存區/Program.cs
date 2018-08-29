@@ -20,7 +20,6 @@ namespace 執行緒區域儲存區
         /// </summary>
         [ThreadStatic]
         public static int _field;
-        public static string slotName = "MySlot";
         public static void Main()
         {
             #region 靜態欄位 thread-relative static fields
@@ -46,36 +45,6 @@ namespace 執行緒區域儲存區
             Console.ReadKey();
             #endregion
 
-            #region 資料位置 data slots
-            Console.WriteLine("資料位置 data slots");
-            LocalDataStoreSlot locSlot = Thread.GetNamedDataSlot(slotName);
-            new Thread(() =>
-            {
-                // 尋找具名的資料位置
-                Thread.SetData(locSlot, 0);
-                for (int x = 0; x < 100; x++)
-                {
-                    int fooInt = (int)Thread.GetData(locSlot);
-                    fooInt++;
-                    Thread.SetData(locSlot, fooInt);
-                    Console.WriteLine("執行緒 A: {0}", fooInt);
-                }
-            }).Start();
-            new Thread(() =>
-            {
-                Thread.SetData(locSlot, 0);
-                for (int x = 0; x < 100; x++)
-                {
-                    int fooInt = (int)Thread.GetData(locSlot);
-                    fooInt++;
-                    Thread.SetData(locSlot, fooInt);
-                    Console.WriteLine("執行緒 B: {0}", fooInt);
-                }
-            }).Start();
-
-            Console.WriteLine("Press any key for continuing...");
-            Console.ReadKey();
-            #endregion
         }
     }
 }

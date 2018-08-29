@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D7E48A2E-C43A-4D88-993F-500ED419A9B7}</ProjectGuid>
+    <ProjectGuid>{1E5569C0-D9C5-405F-AE50-695BC5724E43}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>執行緒GetDataSetData</RootNamespace>
-    <AssemblyName>執行緒GetDataSetData</AssemblyName>
+    <RootNamespace>執行緒資料位置ThreadStatic屬性</RootNamespace>
+    <AssemblyName>執行緒資料位置ThreadStatic屬性</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

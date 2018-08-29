@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊是由下列的屬性集控制。
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
-[assembly: AssemblyTitle("執行緒GetDataSetData")]
+[assembly: AssemblyTitle("執行緒具名資料插槽")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("執行緒GetDataSetData")]
+[assembly: AssemblyProduct("執行緒具名資料插槽")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
-[assembly: Guid("d7e48a2e-c43a-4d88-993f-500ed419a9b7")]
+[assembly: Guid("23c2c0a9-b309-43b6-828e-068b673dce12")]
 
 // 組件的版本資訊由下列四個值所組成: 
 //
