@@ -34,7 +34,7 @@
 |011 不同優先權的執行緒|練習對於不同優先權的執行緒，對於工作排成 Scheduler 所占用時間之觀察|這個範例將會產生五個執行緒，並且賦予每個執行緒擁有不同執行優先權|
 |012 執行緒區域儲存區|使用 ThreadStatic 屬性 來建立執行緒區域儲存區|使用[ThreadStatic] 屬性與LocalDataStoreSlot 結構來設計執行緒及App定義是唯一的資料此一需求|
 |027 執行緒資料位置ThreadStatic屬性|如何使用具名的資料插槽 (data slots)來儲存執行緒特定資訊|在這個範例示範如何使用資料位置來儲存執行緒特定資訊，使用 Thread.AllocateDataSlot  Thread.SetData 和 Thread.GetData 方法來設定和擷取插槽中的資訊|
-|013 執行緒的集區|||
+|013 執行緒的集區|練習使用執行緒集區建立背景執行緒|這個範例展示了如何透過 ThreadPool 來做到多執行緒的多工處理|
 |014 執行緒資料位置|使用 ThreadLocal<T> 來建立執行緒區域儲存區|使用 System.Threading.ThreadLocal<T> 類別來建立第一次取用物件時進行延遲初始化的執行緒區域物件|
 |015 執行緒具名資料插槽|如何使用具名的資料插槽 (data slots)來儲存執行緒特定資訊|在這個範例示範如何使用資料位置來儲存執行緒特定資訊，使用 Thread.AllocateDataSlot  Thread.SetData 和 Thread.GetData 方法來設定和擷取插槽中的資訊|
 |026 執行緒匿名資料插槽|如何使用匿名的資料插槽 (data slots)來儲存執行緒特定資訊|在這個範例示範如何使用資料位置來儲存執行緒特定資訊，使用 Thread.GetNamedDataSlot  Thread.SetData 和 Thread.GetData 方法來設定和擷取插槽中的資訊|
