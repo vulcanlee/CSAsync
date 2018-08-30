@@ -1,15 +1,17 @@
 # 摘要說明
 
-這個範例將會產生體驗關於 [APM非同步程式設計模型] ，在這裡使用了 HttpRequest 來進行讀取遠端網頁(www.microsoft.com)上的內容，APM 的特色就是 使用 BeginXXX 方法啟動非同步的呼叫，完成後，使用 EndXXX結束非同步呼叫並且取得結果內容
+這是使用 EAP Event-based Asynchronous Pattern 範例，這個樣式特色為啟動非同步呼叫之後，就會再另外一個 Thread 繼續來執行這些非同步的需求，不會封鎖呼叫執行緒。當完成之後，會透過 Call Back來繼續處理相關工作，而是否完成與完成的結果內容，可以透過這個委派事件參數取得
 
-使用 IAsyncResult 設計模式的非同步作業會被實作成兩個方法，名稱為 BeginOperationName 及 EndOperationName ，分別負責開始和結束非同步作業 OperationName。 
+將非同步功能公開到用戶端程式碼的方式有許多種； 事件架構非同步模式會針對要呈現非同步行為之類別指示一個方法，您可以參考這份 [文件](https://msdn.microsoft.com/zh-tw/library/ms228969(v=vs.110).aspx)
+
+這裡使用 WebClient 類別來做為 EAP 設計方法的練習說明
 
 ## 練習說明
 
-* 使用 WebRequest.Create 建立 HttpWebRequest 物件
-* 呼叫 HttpWebRequest.BeginGetResponse 非同步方法呼叫
-* 在 回呼 callback 事件內，將參數轉型為 HttpWebRequest
-* 呼叫 HttpWebRequest.EndGetResponse 方法
+* 建立 WebClient 物件
+* 訂閱 WebClient.DownloadStringCompleted (可以使用具名或者匿名 delegate / Lambda 委派方法來設計)
+* 完成非同步呼叫之後，可以透過委派事件內的參數，取得此次非同步工作的失敗/成功狀態，完成結果內容
+* 使用 WebClient.DownloadStringAsync 進行非同步方法呼叫
 * 請實際執行這個範例程式
   * 請試著比較執行前後的執行緒有所不同
   
