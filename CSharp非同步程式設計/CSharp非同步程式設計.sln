@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.作業系統知識回顧", "1.作業系統知識回顧", "{95388988-339F-4A73-9F4A-6928A0E3F082}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.作業系統知識回顧 Operating System Review", "1.作業系統知識回顧 Operating System Review", "{95388988-339F-4A73-9F4A-6928A0E3F082}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001 只有一個主要執行緒", "只有一個主要執行緒\001 只有一個主要執行緒.csproj", "{46B5AD38-9A14-4669-B96C-A44E45397E8C}"
 EndProject
@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004 執行緒競爭解決�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005 執行緒產生死結", "執行緒產生死結\005 執行緒產生死結.csproj", "{D63DE859-B79F-46B1-96E8-B35567B20B10}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.執行緒", "2.執行緒", "{5540EFC7-9E73-474E-B524-F4FC40EDD32F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.執行緒 Threading", "2.執行緒 Threading", "{5540EFC7-9E73-474E-B524-F4FC40EDD32F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001 建立Thread使用ThreadStart", "建立Thread使用ThreadStart\001 建立Thread使用ThreadStart.csproj", "{F8FC4838-6441-4C4B-B3CD-A8C78E51109E}"
 EndProject
@@ -72,6 +72,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019 WPF執行緒同步處理內容", "WPF執行緒同步處理內容\019 WPF執行緒同步處理內容.csproj", "{EA18CB65-3680-47A4-8126-C59B470B9367}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013 執行緒的集區", "執行緒的集區\013 執行緒的集區.csproj", "{89FCD399-C0C3-4E04-A303-D7322C2E67B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.非同步程式設計模式 Asynchronous Programming Patterns", "3.非同步程式設計模式 Asynchronous Programming Patterns", "{16833D3F-EA19-4D98-B201-74FE23AE2370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005 APM非同步程式設計模型", "APM非同步程式設計模型\005 APM非同步程式設計模型.csproj", "{7D1AA636-37D8-4BC3-973F-172567E0B54A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -211,6 +215,10 @@ Global
 		{89FCD399-C0C3-4E04-A303-D7322C2E67B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89FCD399-C0C3-4E04-A303-D7322C2E67B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89FCD399-C0C3-4E04-A303-D7322C2E67B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1AA636-37D8-4BC3-973F-172567E0B54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1AA636-37D8-4BC3-973F-172567E0B54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1AA636-37D8-4BC3-973F-172567E0B54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1AA636-37D8-4BC3-973F-172567E0B54A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,6 +257,7 @@ Global
 		{1E5569C0-D9C5-405F-AE50-695BC5724E43} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{EA18CB65-3680-47A4-8126-C59B470B9367} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{89FCD399-C0C3-4E04-A303-D7322C2E67B2} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{7D1AA636-37D8-4BC3-973F-172567E0B54A} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
