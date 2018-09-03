@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005 APM非同步程式設�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006 EAP事件架構非同步模式", "EAP事件架構非同步模式\006 EAP事件架構非同步模式.csproj", "{119C5AFC-6E07-4786-8B73-EC74E6E2F387}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007 TAP以工作為基礎的非同步模式", "007 TAP以工作為基礎的非同步模式\007 TAP以工作為基礎的非同步模式.csproj", "{E6B9DDB5-8F6E-40EA-B780-C28F32DE1FF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{119C5AFC-6E07-4786-8B73-EC74E6E2F387}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{119C5AFC-6E07-4786-8B73-EC74E6E2F387}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{119C5AFC-6E07-4786-8B73-EC74E6E2F387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B9DDB5-8F6E-40EA-B780-C28F32DE1FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B9DDB5-8F6E-40EA-B780-C28F32DE1FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B9DDB5-8F6E-40EA-B780-C28F32DE1FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B9DDB5-8F6E-40EA-B780-C28F32DE1FF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -265,6 +271,7 @@ Global
 		{89FCD399-C0C3-4E04-A303-D7322C2E67B2} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{7D1AA636-37D8-4BC3-973F-172567E0B54A} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
 		{119C5AFC-6E07-4786-8B73-EC74E6E2F387} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
+		{E6B9DDB5-8F6E-40EA-B780-C28F32DE1FF6} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
