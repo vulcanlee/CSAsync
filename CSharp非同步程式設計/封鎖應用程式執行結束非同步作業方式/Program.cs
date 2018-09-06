@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -63,6 +65,7 @@ namespace 封鎖應用程式執行結束非同步作業方式
                     Console.WriteLine("當處理請求的時候，異常發生了: {0}", e.Message);
                 }
 
+                Console.WriteLine("Press any key for continuing...");
                 Console.ReadKey();
             }
         }

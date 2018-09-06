@@ -6,17 +6,20 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 封鎖應用程式執行AsyncWaitHandle
+namespace 輪詢非同步作業的狀態
 {
-    // 使用 AsyncWaitHandle 封鎖應用程式執行
-    // https://msdn.microsoft.com/zh-tw/library/ms228962(v=vs.110).aspx
-    //
-    // 下列程式碼範例會示範在 DNS 類別中使用非同步方法，以擷取使用者所指定之電腦的網域名稱系統資訊。 
-    // 且會示範使用與非同步作業關聯的 WaitHandle 來進行封鎖。 
-    // 請注意，由於在使用此處理方法時不需要 BeginGetHostByNamerequestCallback 和 stateObject 參數，
-    // 對於這兩個參數都會傳遞 null。
-    public class WaitUntilOperationCompletes
+    // 輪詢非同步作業的狀態，以便得知該非同步作業是否已經完成了
+    // 
+    // 下列程式碼範例會示範使用 Dns 類別中的非同步方法，以擷取使用者指定之電腦的網域名稱系統資訊。 
+    // 這個範例會啟動非同步作業，然後會在作業完成之前在主控台列印句號 (".")。 
+    public class PollUntilOperationCompletes
     {
+        static void UpdateUserInterface()
+        {
+            // 我們會使用 . 句號輸出，表示這個應用程式還在執行中，並沒有封鎖起來
+            Console.Write(".");
+        }
+
         public static void Main(string[] args)
         {
             string queryFQDN = "www.microsoft.com";
@@ -26,15 +29,24 @@ namespace 封鎖應用程式執行AsyncWaitHandle
             // 呼叫 BeginXXX 啟動非同步工作
             IAsyncResult result = Dns.BeginGetHostEntry(queryFQDN, null, null);
             Console.WriteLine("正在取得與處理DNS的資訊...");
-            // 等候，直到整個處理程序完成
-            // 當執行下面程式碼時候，整個 Thread 會被 Block，這個Thread要能繼續執行，必須等候到非同步工作完成
-            result.AsyncWaitHandle.WaitOne();
 
-            // 當非同步處理程序完成後，就可以執行底下程式碼，我們就開始處理結果.
+            // 開始進行輪詢非同步作業的狀態，看看是否已經完成
+            // 我們會使用 . 句號輸出，表示這個應用程式還在執行中，並沒有封鎖起來
+
+            // 在這個回圈內，會不斷地查看非同步工作是否已經完成，透過 IsCompleted 成員
+            // 這樣做法雖然不會造成 Thread Block，可以，可以看得出來，這樣做法會耗用大量的 CPU 資源
+            // 因為，我們需要不斷的察看非同步工作是否已經完成
+            while (result.IsCompleted != true)
+            {
+                UpdateUserInterface();
+            }
+
+            // 若程式已經可以執行到這裡，那就表示非同步工作已經完成了
+
+            Console.WriteLine();
             try
             {
-                // Get the results.
-                // 由於非同步工作已經完成了，所以，我們在此呼叫了 EndXXX 方法，取得非同步工作的處理結果
+                // 透過 EndXXX 告知非同步工作已經完成，並且取得非同步工作的最後執行結果內容
                 IPHostEntry host = Dns.EndGetHostEntry(result);
                 string[] aliases = host.Aliases;
                 IPAddress[] addresses = host.AddressList;

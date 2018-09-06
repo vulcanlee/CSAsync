@@ -83,6 +83,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007 TAP以工作為基礎�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001 封鎖應用程式執行AsyncWaitHandle", "封鎖應用程式執行AsyncWaitHandle\001 封鎖應用程式執行AsyncWaitHandle.csproj", "{BCC902F8-C6DA-4716-A097-E40CD469A0CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002 封鎖應用程式執行結束非同步作業方式", "封鎖應用程式執行結束非同步作業方式\002 封鎖應用程式執行結束非同步作業方式.csproj", "{9B1B04FF-319C-4AF0-8CB4-4D6CF369D636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003 輪詢非同步作業的狀態", "輪詢非同步作業的狀態\003 輪詢非同步作業的狀態.csproj", "{20F24B0A-77C4-49C9-840D-B3EC9217311C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +241,14 @@ Global
 		{BCC902F8-C6DA-4716-A097-E40CD469A0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCC902F8-C6DA-4716-A097-E40CD469A0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCC902F8-C6DA-4716-A097-E40CD469A0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1B04FF-319C-4AF0-8CB4-4D6CF369D636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1B04FF-319C-4AF0-8CB4-4D6CF369D636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1B04FF-319C-4AF0-8CB4-4D6CF369D636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1B04FF-319C-4AF0-8CB4-4D6CF369D636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F24B0A-77C4-49C9-840D-B3EC9217311C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F24B0A-77C4-49C9-840D-B3EC9217311C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F24B0A-77C4-49C9-840D-B3EC9217311C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F24B0A-77C4-49C9-840D-B3EC9217311C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -279,6 +291,8 @@ Global
 		{119C5AFC-6E07-4786-8B73-EC74E6E2F387} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
 		{E6B9DDB5-8F6E-40EA-B780-C28F32DE1FF6} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
 		{BCC902F8-C6DA-4716-A097-E40CD469A0CD} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
+		{9B1B04FF-319C-4AF0-8CB4-4D6CF369D636} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
+		{20F24B0A-77C4-49C9-840D-B3EC9217311C} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
