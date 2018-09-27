@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E6B9DDB5-8F6E-40EA-B780-C28F32DE1FF6}</ProjectGuid>
+    <ProjectGuid>{A130A192-9767-4E46-ACE2-3A5A22FAA139}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_007_TAP以工作為基礎的非同步模式</RootNamespace>
-    <AssemblyName>007 TAP以工作為基礎的非同步模式</AssemblyName>
+    <RootNamespace>TAP以工作為基礎的非同步模式</RootNamespace>
+    <AssemblyName>TAP以工作為基礎的非同步模式</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

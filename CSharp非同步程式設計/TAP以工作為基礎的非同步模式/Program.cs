@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace _007_TAP以工作為基礎的非同步模式
+namespace TAP以工作為基礎的非同步模式
 {
     /// <summary>
     /// 這個專案說明了如何使用 TAP Task-based Asynchronous Pattern 來呼叫非同步的工作
