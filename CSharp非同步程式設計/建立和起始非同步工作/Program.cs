@@ -24,8 +24,6 @@ namespace 建立和起始非同步工作
             // 產生完 Task 物件之後，需要呼叫 Start() 方法，來啟動這個非同步委派方法
             var t = new Task(我的工作);
             t.Start();
-            var t1 = new Task(我的工作有參數, Guid.NewGuid());
-            t1.Start();
             var t2 = new Task(() => 我的工作());
             t2.Start();
 
@@ -33,7 +31,6 @@ namespace 建立和起始非同步工作
             //         等同於建立藉由呼叫無參數的類別 TaskFactory.TaskFactory() 建構函式
             // 使用 Task.Factory 靜態方法產生的非同步工作，會立即開始執行
             Task.Factory.StartNew(我的工作);
-            Task.Factory.StartNew(我的工作有參數, Guid.NewGuid());
             Task.Factory.StartNew(() => 我的工作());
 
             // 方法4 - 將指定在 ThreadPool 執行工作排入佇列，並傳回該工作的工作控制代碼    .NET 4.5 的 Task 類別新增了靜態方法 Run。
@@ -44,7 +41,6 @@ namespace 建立和起始非同步工作
             //               它會使用預設工作排程器。
             // TaskTask.Run 執行後，會立即開始執行非同的委派工作
             Task.Run(() => 我的工作());
-            Task.Run(() => 我的工作有參數(Guid.NewGuid()));
 
             Console.WriteLine("按下任一按鍵，結束處理程序");
             Console.ReadLine();
@@ -56,6 +52,7 @@ namespace 建立和起始非同步工作
             Console.WriteLine("工作執行緒 #{0}", Thread.CurrentThread.ManagedThreadId);
             Thread.Sleep(500);
         }
+
         static void 我的工作有參數(object state)
         {
             Console.WriteLine($"執行 -- 有 -- 傳入參數的工作，參數:{state.ToString()}");
