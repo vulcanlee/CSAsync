@@ -4,7 +4,7 @@
 
 ## 練習說明
 
-* 建立一個工作，該工作會回傳 42，分別使用 ContinueWith、Wait 與 await
+* 建立一個工作，該工作會回傳 42，分別使用 呼叫 Task.ContinueWith 方法完成時執行的接續與使用Wait來等候 與 使用await接續與等候
 * 請實際執行這個範例程式
 
   
