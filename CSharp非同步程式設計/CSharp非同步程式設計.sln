@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019 等候單一工作中�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007 工作有繼續的不同狀態", "工作有繼續的不同狀態\007 工作有繼續的不同狀態.csproj", "{8410289F-DB42-4990-8EB2-7EF347111BCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016 WPF工作進度與取消", "WPF工作進度與取消\016 WPF工作進度與取消.csproj", "{D75C483B-234F-4DB7-92D4-635118D038F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -293,6 +295,10 @@ Global
 		{8410289F-DB42-4990-8EB2-7EF347111BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8410289F-DB42-4990-8EB2-7EF347111BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8410289F-DB42-4990-8EB2-7EF347111BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75C483B-234F-4DB7-92D4-635118D038F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75C483B-234F-4DB7-92D4-635118D038F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75C483B-234F-4DB7-92D4-635118D038F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75C483B-234F-4DB7-92D4-635118D038F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -344,6 +350,7 @@ Global
 		{2D7B368F-E374-4FF7-8962-1248A7FCABF4} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{9475CD9A-F67D-4EA5-BB84-FAE9001B2E92} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{8410289F-DB42-4990-8EB2-7EF347111BCD} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
+		{D75C483B-234F-4DB7-92D4-635118D038F6} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
