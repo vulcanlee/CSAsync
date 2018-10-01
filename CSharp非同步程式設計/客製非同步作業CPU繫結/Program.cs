@@ -22,18 +22,15 @@ namespace 客製非同步作業CPU繫結
                 var foo = Console.ReadKey();
                 cts.Cancel();
             });
-            await 非同步計算();
-            Console.WriteLine("按下任一按鍵，結束該執行緒執行");
-            Console.ReadKey();
-        }
 
-        static async Task 非同步計算()
-        {
             // 建立 CancellationTokenSource
             cts = new CancellationTokenSource();
 
             List<string> fooData = await 取得所有檔案("C:\\Windows\\System32\\", cts.Token);
             Console.WriteLine("非同步計算工作執行完畢，總共:{0}", fooData.Count);
+
+            Console.WriteLine("按下任一按鍵，結束該執行緒執行");
+            Console.ReadKey();
         }
 
         // 產生一個工作，使用執行緒池 Thread Pool 內的執行緒
