@@ -95,6 +95,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001 建立和起始非同�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002 建立和起始有參數非同步工作", "建立和起始有參數非同步工作\002 建立和起始有參數非同步工作.csproj", "{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006 工作等候結束", "工作等候結束\006 工作等候結束.csproj", "{2DD77F7B-8C4A-4823-B072-0CF0A7B37F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018 WhenAll工作中發生例外狀況", "WhenAll工作中發生例外狀況\018 WhenAll工作中發生例外狀況.csproj", "{2D7B368F-E374-4FF7-8962-1248A7FCABF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -269,6 +273,14 @@ Global
 		{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD77F7B-8C4A-4823-B072-0CF0A7B37F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD77F7B-8C4A-4823-B072-0CF0A7B37F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD77F7B-8C4A-4823-B072-0CF0A7B37F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD77F7B-8C4A-4823-B072-0CF0A7B37F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7B368F-E374-4FF7-8962-1248A7FCABF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7B368F-E374-4FF7-8962-1248A7FCABF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7B368F-E374-4FF7-8962-1248A7FCABF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7B368F-E374-4FF7-8962-1248A7FCABF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -316,6 +328,8 @@ Global
 		{A130A192-9767-4E46-ACE2-3A5A22FAA139} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
 		{DD0CB0C8-CA71-44AC-A515-A22F404E4900} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
+		{2DD77F7B-8C4A-4823-B072-0CF0A7B37F75} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
+		{2D7B368F-E374-4FF7-8962-1248A7FCABF4} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
