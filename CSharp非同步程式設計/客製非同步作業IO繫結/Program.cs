@@ -14,7 +14,7 @@ namespace 客製非同步作業IO繫結
     /// </summary>
     class Program
     {
-        static CancellationTokenSource cts = new CancellationTokenSource();
+        static CancellationTokenSource cts;
         static async Task Main(string[] args)
         {
             ThreadPool.QueueUserWorkItem((x) =>
@@ -22,6 +22,9 @@ namespace 客製非同步作業IO繫結
                 var foo = Console.ReadKey();
                 cts.Cancel();
             });
+
+            // 建立 CancellationTokenSource
+            cts = new CancellationTokenSource();
 
             string fooString = await DownloadStringAsync(new Uri("http://www.microsoft.com"), cts.Token);
             Console.WriteLine("網頁長度: {0}", fooString.Length);
