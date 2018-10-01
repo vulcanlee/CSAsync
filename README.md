@@ -76,11 +76,11 @@
 |專案名稱|專案說明|備註|
 |-|-|-|
 |001 建立和起始非同步工作|各種非同步工作的建立與啟動方法|使用 ThreadPool.QueueUserWorkItem / new Task / Task.Factory.StartNew / Task.Run|
-|002 建立和起始有參數非同步工作|||
+|002 建立和起始有參數非同步工作|各種有參數非同步工作的建立與啟動方法|ThreadPool.QueueUserWorkItem / new Task / Task.Factory.StartNew / Task.Run|
 |003 Await接續封送處理測試|||
 |004 WPF_Await接續封送處理測試|||
 |005 同時啟動多個工作|||
-|006 工作有繼續|||
+|006 工作等候結束|||
 |007 工作有繼續的不同狀態|||
 |008 等候所有工作完成執行|||
 |009 等候任一工作完成執行|||

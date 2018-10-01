@@ -93,6 +93,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.工作平行程式 TPL", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001 建立和起始非同步工作", "建立和起始非同步工作\001 建立和起始非同步工作.csproj", "{DD0CB0C8-CA71-44AC-A515-A22F404E4900}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002 建立和起始有參數非同步工作", "建立和起始有參數非同步工作\002 建立和起始有參數非同步工作.csproj", "{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -263,6 +265,10 @@ Global
 		{DD0CB0C8-CA71-44AC-A515-A22F404E4900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD0CB0C8-CA71-44AC-A515-A22F404E4900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD0CB0C8-CA71-44AC-A515-A22F404E4900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -309,6 +315,7 @@ Global
 		{5112AD92-C129-45EC-ACFD-A348A3F7D0F9} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
 		{A130A192-9767-4E46-ACE2-3A5A22FAA139} = {16833D3F-EA19-4D98-B201-74FE23AE2370}
 		{DD0CB0C8-CA71-44AC-A515-A22F404E4900} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
+		{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
