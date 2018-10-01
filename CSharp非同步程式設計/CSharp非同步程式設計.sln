@@ -99,6 +99,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006 工作等候結束", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018 WhenAll工作中發生例外狀況", "WhenAll工作中發生例外狀況\018 WhenAll工作中發生例外狀況.csproj", "{2D7B368F-E374-4FF7-8962-1248A7FCABF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019 等候單一工作中發生例外狀況", "等候單一工作中發生例外狀況\019 等候單一工作中發生例外狀況.csproj", "{9475CD9A-F67D-4EA5-BB84-FAE9001B2E92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -281,6 +283,10 @@ Global
 		{2D7B368F-E374-4FF7-8962-1248A7FCABF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D7B368F-E374-4FF7-8962-1248A7FCABF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D7B368F-E374-4FF7-8962-1248A7FCABF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9475CD9A-F67D-4EA5-BB84-FAE9001B2E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9475CD9A-F67D-4EA5-BB84-FAE9001B2E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9475CD9A-F67D-4EA5-BB84-FAE9001B2E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9475CD9A-F67D-4EA5-BB84-FAE9001B2E92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -330,6 +336,7 @@ Global
 		{AD57CF46-DA7F-4E64-9A75-0975FA0A2D08} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{2DD77F7B-8C4A-4823-B072-0CF0A7B37F75} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{2D7B368F-E374-4FF7-8962-1248A7FCABF4} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
+		{9475CD9A-F67D-4EA5-BB84-FAE9001B2E92} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
