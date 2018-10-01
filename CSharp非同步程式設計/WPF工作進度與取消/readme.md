@@ -6,5 +6,6 @@
 
 ## 練習說明
 
+* 了解處理進度 Progress 與取消權杖來源 CancellationTokenSource的用法
 * 請實際執行這個範例程式
   

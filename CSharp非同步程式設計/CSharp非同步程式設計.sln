@@ -105,6 +105,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007 工作有繼續的不�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016 WPF工作進度與取消", "WPF工作進度與取消\016 WPF工作進度與取消.csproj", "{D75C483B-234F-4DB7-92D4-635118D038F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017 Sleep與Delay差異", "Sleep與Delay差異\017 Sleep與Delay差異.csproj", "{B89C7052-4436-453C-885E-395FA2C8B216}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -299,6 +301,10 @@ Global
 		{D75C483B-234F-4DB7-92D4-635118D038F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D75C483B-234F-4DB7-92D4-635118D038F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D75C483B-234F-4DB7-92D4-635118D038F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89C7052-4436-453C-885E-395FA2C8B216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89C7052-4436-453C-885E-395FA2C8B216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89C7052-4436-453C-885E-395FA2C8B216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89C7052-4436-453C-885E-395FA2C8B216}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -351,6 +357,7 @@ Global
 		{9475CD9A-F67D-4EA5-BB84-FAE9001B2E92} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{8410289F-DB42-4990-8EB2-7EF347111BCD} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{D75C483B-234F-4DB7-92D4-635118D038F6} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
+		{B89C7052-4436-453C-885E-395FA2C8B216} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
