@@ -117,6 +117,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003 Console_Await接續封�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005 同時啟動多個工作", "同時啟動多個工作\005 同時啟動多個工作.csproj", "{FA8DFE7A-C066-4573-A3C7-D061A73E6F18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008 等候所有工作完成執行", "等候所有工作完成執行\008 等候所有工作完成執行.csproj", "{910ECF80-B6D7-4B94-B76A-B6BC9C8DCAB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -335,6 +337,10 @@ Global
 		{FA8DFE7A-C066-4573-A3C7-D061A73E6F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA8DFE7A-C066-4573-A3C7-D061A73E6F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA8DFE7A-C066-4573-A3C7-D061A73E6F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910ECF80-B6D7-4B94-B76A-B6BC9C8DCAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910ECF80-B6D7-4B94-B76A-B6BC9C8DCAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910ECF80-B6D7-4B94-B76A-B6BC9C8DCAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910ECF80-B6D7-4B94-B76A-B6BC9C8DCAB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -393,6 +399,7 @@ Global
 		{2EC98B65-7E13-49FD-8325-133C9D60ED08} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{FA8DFE7A-C066-4573-A3C7-D061A73E6F18} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
+		{910ECF80-B6D7-4B94-B76A-B6BC9C8DCAB5} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
