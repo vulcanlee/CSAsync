@@ -77,7 +77,7 @@
 |-|-|-|
 |001 建立和起始非同步工作|各種非同步工作的建立與啟動方法|使用 ThreadPool.QueueUserWorkItem / new Task / Task.Factory.StartNew / Task.Run|
 |002 建立和起始有參數非同步工作|各種有參數非同步工作的建立與啟動方法|ThreadPool.QueueUserWorkItem / new Task / Task.Factory.StartNew / Task.Run|
-|003 Await接續封送處理測試|||
+|003 Await接續封送處理測試|在沒有UI執行緒類型專案下，了解ConfigureAwait(true/false)的差異|在這裡，我們呼叫 HttpClient 非同步讀取網頁資料資料，分別使用 ConfigureAwait(true) 與 ConfigureAwait(false)，觀察執行前後的執行緒變化|
 |004 WPF_Await接續封送處理測試|等候非同步工作完成後，是否要回到原執行緒繼續執行的不同作法練習|我們可以在呼叫非同步方法後，也就是在 await 之後，嘗試將接續封送處理回原始擷取的內容|
 |005 同時啟動多個工作|||
 |006 工作等候結束|練習如何透過非同步工作，讀取一個處理完成的回傳內容|建立一個工作，該工作會回傳 42，分別使用 ContinueWith、Wait 與 await|

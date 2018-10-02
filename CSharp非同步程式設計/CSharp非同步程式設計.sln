@@ -113,6 +113,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014 客製非同步作業IO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004 WPF_Await接續封送處理測試", "WPF_Await接續封送處理測試\004 WPF_Await接續封送處理測試.csproj", "{2EC98B65-7E13-49FD-8325-133C9D60ED08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003 Console_Await接續封送處理測試", "Console_Await接續封送處理測試\003 Console_Await接續封送處理測試.csproj", "{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -323,6 +325,10 @@ Global
 		{2EC98B65-7E13-49FD-8325-133C9D60ED08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EC98B65-7E13-49FD-8325-133C9D60ED08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EC98B65-7E13-49FD-8325-133C9D60ED08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -379,6 +385,7 @@ Global
 		{72809C4A-2E12-4577-A4F9-A4FD5AD281BE} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{25450372-CE8E-42E0-96AD-282EABED072F} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{2EC98B65-7E13-49FD-8325-133C9D60ED08} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
+		{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
