@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004 WPF_Await接續封送�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003 Console_Await接續封送處理測試", "Console_Await接續封送處理測試\003 Console_Await接續封送處理測試.csproj", "{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005 同時啟動多個工作", "同時啟動多個工作\005 同時啟動多個工作.csproj", "{FA8DFE7A-C066-4573-A3C7-D061A73E6F18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -329,6 +331,10 @@ Global
 		{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8DFE7A-C066-4573-A3C7-D061A73E6F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8DFE7A-C066-4573-A3C7-D061A73E6F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8DFE7A-C066-4573-A3C7-D061A73E6F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8DFE7A-C066-4573-A3C7-D061A73E6F18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -386,6 +392,7 @@ Global
 		{25450372-CE8E-42E0-96AD-282EABED072F} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{2EC98B65-7E13-49FD-8325-133C9D60ED08} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{8EF2E8BC-8485-4AC2-BFFB-3C94B9476261} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
+		{FA8DFE7A-C066-4573-A3C7-D061A73E6F18} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
