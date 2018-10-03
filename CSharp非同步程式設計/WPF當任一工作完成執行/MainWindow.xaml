@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF當任一工作完成執行.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF當任一工作完成執行"
+        mc:Ignorable="d"
+        Title="020 WPF當任一工作完成執行" Height="366.621" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="startButton" Content="開始" HorizontalAlignment="Left" Margin="41,10,0,0" VerticalAlignment="Top" Width="200" FontWeight="Bold"  Height="40" FontSize="14" Grid.ColumnSpan="2" Click="startButton_Click" />
+        <Button x:Name="cancelButton" Content="取消" Margin="93.551,10,41,0" VerticalAlignment="Top" RenderTransformOrigin="0.187,-0.3" FontWeight="Bold"  Height="40" FontSize="14" Grid.Column="1" Click="cancelButton_Click" />
+        <TextBox x:Name="resultsTextBox" HorizontalAlignment="Stretch" Height="247" TextWrapping="Wrap" VerticalAlignment="Bottom" SpellCheck.IsEnabled="True" FontFamily="Lucida Console" VerticalScrollBarVisibility="Visible" Background="#FFF9EEEC" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
