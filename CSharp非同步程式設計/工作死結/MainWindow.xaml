@@ -1,0 +1,26 @@
+﻿<Window x:Class="工作死結.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:工作死結"
+        mc:Ignorable="d"
+        Title="4.工作平行程式 TPL / 013 工作死結" Height="350" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnDeadlock" Content="我會產生死結(同步呼叫，不切換)" Click="Button_Click" Background="#FFFF0101" Foreground="White" FontSize="18.667" />
+        <Button x:Name="btnDeadlock2" Grid.Column="1" Content="不會死結 2(同步呼叫，有切換)" Click="Button2_Click" FontSize="18.667" />
+        <Button x:Name="btnDeadlock1" Grid.Column="2" Content="我不會產生死結 1 (非同步呼叫)" Click="Button1_Click" FontSize="18.667" />
+        <Button x:Name="btnDeadlock3" Grid.Row="1" Content="我需要5秒鐘(會凍結)" Click="Button3_Click" FontSize="18.667" />
+        <Button x:Name="btnDeadlock4" Grid.Row="1" Grid.Column="1" Content="我需要5秒鐘" Click="Button4_Click" FontSize="18.667" />
+        <Button x:Name="btnDeadlock5" Grid.Row="1" Grid.Column="2" Content="我會產生死結(同步呼叫，有切換)" Click="Button5_Click" Background="#FFFF0101" FontSize="18.667" Foreground="White" />
+    </Grid>
+</Window>

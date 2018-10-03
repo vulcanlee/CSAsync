@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010 當任一工作完成�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020 WPF當任一工作完成執行", "WPF當任一工作完成執行\020 WPF當任一工作完成執行.csproj", "{30AEF5EE-EDC1-4B3D-9A26-CDF7B1DD967C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013 工作死結", "工作死結\013 工作死結.csproj", "{051E1989-0BA1-4A4F-BF51-D3CA59655C2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -359,6 +361,10 @@ Global
 		{30AEF5EE-EDC1-4B3D-9A26-CDF7B1DD967C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30AEF5EE-EDC1-4B3D-9A26-CDF7B1DD967C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30AEF5EE-EDC1-4B3D-9A26-CDF7B1DD967C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051E1989-0BA1-4A4F-BF51-D3CA59655C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051E1989-0BA1-4A4F-BF51-D3CA59655C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051E1989-0BA1-4A4F-BF51-D3CA59655C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051E1989-0BA1-4A4F-BF51-D3CA59655C2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -421,6 +427,7 @@ Global
 		{667663F6-CFD7-4807-9EFE-C76BA57A5A53} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{EF6B907B-E547-49E6-9DE0-E8A795A12D6B} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{30AEF5EE-EDC1-4B3D-9A26-CDF7B1DD967C} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
+		{051E1989-0BA1-4A4F-BF51-D3CA59655C2F} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
