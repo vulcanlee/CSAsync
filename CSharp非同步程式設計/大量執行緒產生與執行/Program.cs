@@ -35,6 +35,7 @@ namespace 大量執行緒產生與執行
                     var threadId = Thread.CurrentThread.ManagedThreadId;
                     for (int i = 0; i < int.MaxValue; i++)
                     {
+                        if((i%1000) ==0)
                         Console.WriteLine($"執行緒方法{threadId}: {i}");
                     }
                 })
