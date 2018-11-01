@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "指定處理程序或執行緒在特定CPU上執行", "指定處理程序或執行緒在特定CPU上執行\指定處理程序或執行緒在特定CPU上執行.csproj", "{250B5A55-0E4D-4CB6-AFBB-BC7A2BCBBC01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{250B5A55-0E4D-4CB6-AFBB-BC7A2BCBBC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250B5A55-0E4D-4CB6-AFBB-BC7A2BCBBC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250B5A55-0E4D-4CB6-AFBB-BC7A2BCBBC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250B5A55-0E4D-4CB6-AFBB-BC7A2BCBBC01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {429A1913-153B-4D45-B06F-1CE01BE3D119}
+	EndGlobalSection
+EndGlobal
