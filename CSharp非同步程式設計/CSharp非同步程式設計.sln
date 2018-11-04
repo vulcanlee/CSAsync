@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "028 獨佔鎖定SpinLock", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "029 巢狀lock", "巢狀lock\029 巢狀lock.csproj", "{97E59B60-9149-4EB5-BE99-1FE99D435912}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "030 用Mutex限制只有一個處理程序可以執行", "用Mutex限制只有一個處理程序可以執行\030 用Mutex限制只有一個處理程序可以執行.csproj", "{6C4A88FC-573D-4B89-8845-1CE61D62C9B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -395,6 +397,10 @@ Global
 		{97E59B60-9149-4EB5-BE99-1FE99D435912}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E59B60-9149-4EB5-BE99-1FE99D435912}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E59B60-9149-4EB5-BE99-1FE99D435912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4A88FC-573D-4B89-8845-1CE61D62C9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4A88FC-573D-4B89-8845-1CE61D62C9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4A88FC-573D-4B89-8845-1CE61D62C9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4A88FC-573D-4B89-8845-1CE61D62C9B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -463,6 +469,7 @@ Global
 		{E12A970D-A543-40DD-AE6C-5288C225ABF7} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{8AA66778-F937-4452-B8CE-67705DFA1AE7} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{97E59B60-9149-4EB5-BE99-1FE99D435912} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{6C4A88FC-573D-4B89-8845-1CE61D62C9B9} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
