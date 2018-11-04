@@ -129,6 +129,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013 工作死結", "工作�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016 獨佔鎖定Monitor", "獨佔鎖定Monitor\016 獨佔鎖定Monitor.csproj", "{143FCE5C-E89F-49E2-A752-0EBA62F7B598}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017 lock陳述式的深層鎖定問題", "lock陳述式的深層鎖定問題\017 lock陳述式的深層鎖定問題.csproj", "{22868CD2-174B-4876-966D-72F5FFA55C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018 獨佔鎖定Mutex", "獨佔鎖定Mutex\018 獨佔鎖定Mutex.csproj", "{E12A970D-A543-40DD-AE6C-5288C225ABF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -371,6 +375,14 @@ Global
 		{143FCE5C-E89F-49E2-A752-0EBA62F7B598}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143FCE5C-E89F-49E2-A752-0EBA62F7B598}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143FCE5C-E89F-49E2-A752-0EBA62F7B598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22868CD2-174B-4876-966D-72F5FFA55C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22868CD2-174B-4876-966D-72F5FFA55C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22868CD2-174B-4876-966D-72F5FFA55C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22868CD2-174B-4876-966D-72F5FFA55C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12A970D-A543-40DD-AE6C-5288C225ABF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12A970D-A543-40DD-AE6C-5288C225ABF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12A970D-A543-40DD-AE6C-5288C225ABF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12A970D-A543-40DD-AE6C-5288C225ABF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -435,6 +447,8 @@ Global
 		{30AEF5EE-EDC1-4B3D-9A26-CDF7B1DD967C} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{051E1989-0BA1-4A4F-BF51-D3CA59655C2F} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
 		{143FCE5C-E89F-49E2-A752-0EBA62F7B598} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{22868CD2-174B-4876-966D-72F5FFA55C58} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{E12A970D-A543-40DD-AE6C-5288C225ABF7} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}

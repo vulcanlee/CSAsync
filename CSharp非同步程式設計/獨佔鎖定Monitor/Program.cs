@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace 獨佔鎖定Monitor
 {
     /// <summary>
-    /// 這個範例將會說明當使用獨佔鎖定 Monitor ，如何使用 Monitor.Wait / Monitor.PulseAll 在不同執行緒間的同步執行工作
+    /// 這個範例將會說明當使用獨佔鎖定 Monitor ，如何使用 Monitor.Wait / Monitor.PulseAll 在不同執行緒間，進行同步執行工作
     /// </summary>
     class Program
     {
