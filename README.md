@@ -54,7 +54,7 @@
 |031 用Mutex進行跨處理程序的執行緒同步|||
 |032 信號AutoResetEvent|||
 |033 信號ManualResetEvent|||
-||||
+|034 信號Barrier|||
 ||||
 ||||
 ||||
