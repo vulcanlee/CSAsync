@@ -13,14 +13,14 @@ namespace 非獨佔鎖定Interlocked
         static double TotalDouble = 0.0;
         static void Main(string[] args)
         {
-            //Thread t1 = new Thread(SumInt);
-            //Thread t2 = new Thread(SumInt);
-            //t1.Start(); t2.Start();
+            Thread t1 = new Thread(SumInt);
+            Thread t2 = new Thread(SumInt);
+            t1.Start(); t2.Start();
 
-            //t1.Join();
-            //t2.Join();
+            t1.Join();
+            t2.Join();
 
-            //Console.WriteLine($"整數計算結果 {TotalInt}");
+            Console.WriteLine($"整數計算結果 {TotalInt}");
 
             Thread t3 = new Thread(SumDouble);
             Thread t4 = new Thread(SumDouble);
