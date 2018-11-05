@@ -145,7 +145,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "032 信號AutoResetEvent", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "033 信號ManualResetEvent", "信號ManualResetEvent\033 信號ManualResetEvent.csproj", "{C2C80090-EFE1-41AA-BEE6-8272130A495C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "信號Barrier", "信號Barrier\信號Barrier.csproj", "{A53983CB-BBAF-4F1D-8A3F-74124AC5201B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "034 信號Barrier", "信號Barrier\034 信號Barrier.csproj", "{A53983CB-BBAF-4F1D-8A3F-74124AC5201B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "035 信號CountdownEvent", "信號CountdownEvent\035 信號CountdownEvent.csproj", "{AA115E85-BA98-47A0-803B-833B9E5C67A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -425,6 +427,10 @@ Global
 		{A53983CB-BBAF-4F1D-8A3F-74124AC5201B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A53983CB-BBAF-4F1D-8A3F-74124AC5201B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A53983CB-BBAF-4F1D-8A3F-74124AC5201B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA115E85-BA98-47A0-803B-833B9E5C67A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA115E85-BA98-47A0-803B-833B9E5C67A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA115E85-BA98-47A0-803B-833B9E5C67A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA115E85-BA98-47A0-803B-833B9E5C67A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -498,6 +504,7 @@ Global
 		{2AF29CC4-89B7-4B50-8A4B-85F53FA6D8B7} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{C2C80090-EFE1-41AA-BEE6-8272130A495C} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{A53983CB-BBAF-4F1D-8A3F-74124AC5201B} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
+		{AA115E85-BA98-47A0-803B-833B9E5C67A9} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
