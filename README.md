@@ -58,7 +58,7 @@
 |035 信號CountdownEvent|||
 |036 獨佔鎖定Semaphore|||
 |037 非獨佔鎖定SemaphoreSlim|||
-||||
+|038 非獨佔鎖定Interlocked|||
 ||||
 ||||
 
