@@ -59,7 +59,7 @@
 |036 獨佔鎖定Semaphore|||
 |037 非獨佔鎖定SemaphoreSlim|||
 |038 非獨佔鎖定Interlocked|||
-||||
+|039 非獨佔鎖定ReaderWriterLockSlim|||
 ||||
 
 ### 執行緒同步範例
