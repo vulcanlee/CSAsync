@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace 獨佔鎖定Semaphore
+namespace 非獨佔鎖定Semaphore
 {
     /// <summary>
     /// 下列程式碼範例會建立號誌的三個最大計數與初始的計數為零。 此範例會啟動五個執行緒，封鎖等候號誌

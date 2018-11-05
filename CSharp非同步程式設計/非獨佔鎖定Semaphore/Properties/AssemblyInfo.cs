@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊是由下列的屬性集控制。
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
-[assembly: AssemblyTitle("獨佔鎖定Semaphore")]
+[assembly: AssemblyTitle("非獨佔鎖定Semaphore")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("獨佔鎖定Semaphore")]
+[assembly: AssemblyProduct("非獨佔鎖定Semaphore")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
-[assembly: Guid("a32ecd6e-0a9b-4b82-adfa-232fb738beb5")]
+[assembly: Guid("28e0308c-08a6-4a1e-825b-15d3b594cc97")]
 
 // 組件的版本資訊由下列四個值所組成: 
 //

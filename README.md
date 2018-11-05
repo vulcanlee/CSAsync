@@ -56,7 +56,7 @@
 |033 信號ManualResetEvent|||
 |034 信號Barrier|||
 |035 信號CountdownEvent|||
-||||
+|036 獨佔鎖定Semaphore|||
 ||||
 ||||
 ||||
