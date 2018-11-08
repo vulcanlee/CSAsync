@@ -20,6 +20,12 @@ namespace 信號ManualResetEvent
             Console.WriteLine("按下任一按鍵，送出收到訊號狀態");
             Console.ReadKey();
             MySyncEvent.Set();
+            Console.WriteLine("按下任一按鍵，把ManualResetEvent設定為未收到信號的狀態");
+            Console.ReadKey();
+            MySyncEvent.Reset();
+            Console.WriteLine("按下任一按鍵，送出收到訊號狀態");
+            Console.ReadKey();
+            MySyncEvent.Set();
             Console.WriteLine("Press any key for continuing...");
             Console.ReadKey();
         }
@@ -32,7 +38,6 @@ namespace 信號ManualResetEvent
                 MySyncEvent.WaitOne();
                 Console.WriteLine($"@ 工作執行緒{state} 模擬需要執行");
                 Thread.Sleep(1000);
-                MySyncEvent.Set();
             }
         }
     }
