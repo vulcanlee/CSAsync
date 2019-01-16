@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace 建立Task物件的工作狀態追蹤
+{
+    class Program
+    {
+        static Task fooTask;
+        static void Main(string[] args)
+        {
+            string lastStatus = "";
+            fooTask = new Task(MyDelegate);
+            Task.Run(() => { Thread.Sleep(200); fooTask.Start(); });
+
+            while (true)
+            {
+                var tmpStatus = fooTask.Status;
+                if (tmpStatus.ToString() != lastStatus)
+                {
+                    Console.WriteLine($"Status : {fooTask.Status}");
+                    Console.WriteLine($"IsCompleted : {fooTask.IsCompleted}");
+                    Console.WriteLine($"IsCanceled : {fooTask.IsCanceled}");
+                    Console.WriteLine($"IsFaulted : {fooTask.IsFaulted}");
+                    var exceptionStatusX = (fooTask.Exception == null) ? "沒有 AggregateException 物件" : "有 AggregateException 物件";
+                    Console.WriteLine($"Exception : {exceptionStatusX}");
+                    Console.WriteLine();
+                    lastStatus = tmpStatus.ToString();
+                }
+            }
+        }
+
+        public static void MyDelegate()
+        {
+            Thread.Sleep(6000);
+        }
+    }
+}
