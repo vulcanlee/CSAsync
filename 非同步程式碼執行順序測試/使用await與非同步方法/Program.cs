@@ -13,13 +13,16 @@ namespace 使用await與非同步方法
         static async Task Main(string[] args)
         {
             WriteThreadId(1);
-            await LogAsync("Program started");
+            Task fooTask = LogAsync("程式開始");
+
+            WriteThreadId(5);
+            Console.WriteLine($"模擬主程式正在忙碌中，約1秒鐘");
+            //模擬主程式正在忙碌中
+            Thread.Sleep(1000);
+
+            await fooTask;
 
             WriteThreadId(6);
-            Console.WriteLine($"模擬主程式正在忙碌中，約3秒鐘");
-            //模擬主程式正在忙碌中
-            Thread.Sleep(3000);
-            WriteThreadId(7);
 
             Console.WriteLine("Press any key for continuing...");
             Console.ReadKey();
@@ -31,15 +34,10 @@ namespace 使用await與非同步方法
             await Task.Run(() =>
             {
                 WriteThreadId(3);
-                Console.WriteLine($"模擬寫到資料庫內，約1秒鐘");
-                Thread.Sleep(1000); // 模擬寫到資料庫內
-                WriteThreadId(4);
-
-                Console.WriteLine($"模擬寫到檔案內，約1秒鐘");
-                Thread.Sleep(1000); // 模擬寫到檔案內
-                WriteThreadId(5);
+                Console.WriteLine($"模擬寫到資料庫內，約2秒鐘");
+                Thread.Sleep(2000); // 模擬寫到資料庫內
             });
-
+            WriteThreadId(4);
         }
 
         private static void WriteThreadId(int checkpoint)

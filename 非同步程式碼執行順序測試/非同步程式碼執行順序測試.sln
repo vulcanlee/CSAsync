@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用await與TaskCompletio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用await與非同步方法", "使用await與非同步方法\使用await與非同步方法.csproj", "{86A695D0-E13E-4FE7-A17D-8D3F797E5EC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用同步的方式", "使用同步的方式\使用同步的方式.csproj", "{B4E1D32E-8FC4-4F1C-BF78-3AD218737210}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{86A695D0-E13E-4FE7-A17D-8D3F797E5EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86A695D0-E13E-4FE7-A17D-8D3F797E5EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86A695D0-E13E-4FE7-A17D-8D3F797E5EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E1D32E-8FC4-4F1C-BF78-3AD218737210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E1D32E-8FC4-4F1C-BF78-3AD218737210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E1D32E-8FC4-4F1C-BF78-3AD218737210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E1D32E-8FC4-4F1C-BF78-3AD218737210}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

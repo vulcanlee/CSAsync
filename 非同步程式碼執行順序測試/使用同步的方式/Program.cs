@@ -5,22 +5,18 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace 使用await與TaskCompletionSource
+namespace 使用同步的方式
 {
-    // 請試著說出程式碼執行順序，也就是 Checkpoint 與 執行緒 ID 的變化
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
             WriteThreadId(1);
-            Task fooTask = LogAsync("程式開始");
+            LogAsync("程式開始");
 
             WriteThreadId(5);
             Console.WriteLine($"模擬主程式正在忙碌中，約1秒鐘");
-            //模擬主程式正在忙碌中
             Thread.Sleep(1000);
-
-            await fooTask;
 
             WriteThreadId(6);
 
@@ -28,19 +24,13 @@ namespace 使用await與TaskCompletionSource
             Console.ReadKey();
         }
 
-        private static Task LogAsync(string @event)
+        private static void LogAsync(string @event)
         {
             WriteThreadId(2);
-            TaskCompletionSource<object> tcs = new TaskCompletionSource<object>();
-            Task.Run(() =>
-            {
-                WriteThreadId(3);
-                Console.WriteLine($"模擬寫到資料庫內，約2秒鐘");
-                Thread.Sleep(2000); // 模擬寫到資料庫內
-                tcs.SetResult(null);
-            });
+            WriteThreadId(3);
+            Console.WriteLine($"模擬寫到資料庫內，約2秒鐘");
+            Thread.Sleep(2000); // 模擬寫到資料庫內
             WriteThreadId(4);
-            return tcs.Task;
         }
 
         private static void WriteThreadId(int checkpoint)
