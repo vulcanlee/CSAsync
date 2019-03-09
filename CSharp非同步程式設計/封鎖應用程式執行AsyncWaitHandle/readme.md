@@ -1,6 +1,8 @@
 # 摘要說明
 
-使用 AsyncWaitHandle 封鎖應用程式執行，https://msdn.microsoft.com/zh-tw/library/ms228962(v=vs.110).aspx 。下列程式碼範例會示範在 DNS 類別中使用非同步方法，以擷取使用者所指定之電腦的網域名稱系統資訊。 且會示範使用與非同步作業關聯的 WaitHandle 來進行封鎖。 請注意，由於在使用此處理方法時不需要 BeginGetHostByNamerequestCallback 和 stateObject 參數，對於這兩個參數都會傳遞 null。
+使用 AsyncWaitHandle 封鎖應用程式執行，https://msdn.microsoft.com/zh-tw/library/ms228962(v=vs.110).aspx 。
+
+下列程式碼範例會示範使用 HttpWebRequest 來非同步方法存取網路服務。 且會示範使用與非同步作業關聯的 WaitHandle 來進行封鎖。 請注意，由於在使用此處理方法 (BeginGetResponse) 時不需要 回呼 callback 委派方法與 狀態 state 物件，對於這兩個參數都會傳遞 null。
 
 ## 練習說明
 
