@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.作業系統知識回顧 Operating System Review", "1.作業系統知識回顧 Operating System Review", "{95388988-339F-4A73-9F4A-6928A0E3F082}"
 EndProject
@@ -158,6 +158,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "039 非獨佔鎖定ReaderWriterLockSlim", "非獨佔鎖定ReaderWriterLockSlim\039 非獨佔鎖定ReaderWriterLockSlim.csproj", "{FF0B0586-5388-468C-9D38-EA0710254AAA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021 取消 HttpClient 網路存取", "取消 HttpClient 網路存取\021 取消 HttpClient 網路存取.csproj", "{BBFE48D5-539F-475F-93B6-5B4F1720C5F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "040 執行緒集區的使用與歸還", "執行緒集區的使用與歸還\040 執行緒集區的使用與歸還.csproj", "{8C2CD19A-A9BE-417F-8E44-081A38BADEF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -461,6 +463,10 @@ Global
 		{BBFE48D5-539F-475F-93B6-5B4F1720C5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBFE48D5-539F-475F-93B6-5B4F1720C5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBFE48D5-539F-475F-93B6-5B4F1720C5F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2CD19A-A9BE-417F-8E44-081A38BADEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2CD19A-A9BE-417F-8E44-081A38BADEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2CD19A-A9BE-417F-8E44-081A38BADEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2CD19A-A9BE-417F-8E44-081A38BADEF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -540,6 +546,7 @@ Global
 		{6F0CC330-A544-4996-AA0B-3205B3319385} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{FF0B0586-5388-468C-9D38-EA0710254AAA} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 		{BBFE48D5-539F-475F-93B6-5B4F1720C5F6} = {87CC86CC-7CB5-46E4-83B1-4E08A165D6BF}
+		{8C2CD19A-A9BE-417F-8E44-081A38BADEF3} = {5540EFC7-9E73-474E-B524-F4FC40EDD32F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACF7205-C15D-4834-B913-E5DE979365BE}
